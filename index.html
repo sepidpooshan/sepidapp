@@ -80,20 +80,20 @@
 	margin: 0;
 	padding: .4em 15px;
 }
-.auto-style21 {
-	text-align: center;
-	direction: rtl;
-	font-family: Tahoma, "Courier New";
-	font-size: xx-small;
-	font-weight: normal;
-}
-.auto-style22 {
-	text-align: center;
-	direction: rtl;
-	font-family: Tahoma, "Courier New";
-	font-size: smaller;
-}
-</style>
+	.auto-style21 {
+		text-align: center;
+		direction: rtl;
+		font-family: Tahoma, "Courier New";
+		font-size: xx-small;
+		font-weight: normal;
+	}
+	.auto-style22 {
+		text-align: center;
+		direction: rtl;
+		font-family: Tahoma, "Courier New";
+		font-size: smaller;
+	}
+	</style>
   </head>
   <body onload="onBodyLoad()">
     
@@ -134,10 +134,11 @@
       <div data-role="header" data-position="fixed" data-id="bhead" data-theme="e" class="auto-style2">
         <h1 class="auto-style22">
 		<img alt="سپیدپوشان" height="70" src="images/logo.png" width="159"></h1>
-		  <h1 class="auto-style21"><em>اینجا مردم نبض دکترها را می گیرند</em></h1>
+		  <h1 class="auto-style21">جستجو، ارزیابی،‌ تخفیف پزشکان</h1>
           <div class="auto-style16">
-			  <a href="#home"><span class="auto-style17">خانه</span></a>
-			  <span class="auto-style17"><a href="#info">درباره</a> </span>
+      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style20" data-theme="e">
+          <a href="#home">خانه</a> <a href="#info">درباره</a>
+      </div>
 		  </div>
       </div>
       <!-- /header -->
@@ -204,7 +205,9 @@
     <!-- Start of Login page -->
     <div data-role="page" id="login" class="auto-style3">
       <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
-        <h1 class="auto-style18">ورود به حساب کاربر&#1740;</h1>
+        <h1 class="auto-style22">
+		<img alt="ورود" height="100" src="images/login.png" width="100"></h1>
+		  <h1 class="auto-style22">ورود به حساب کاربر&#1740;</h1>
           <div class="auto-style16">
 			  <a href="#home"><span class="auto-style17">خانه</span></a>
 			  <span class="auto-style17"><a href="#info">درباره</a> </span>
@@ -241,11 +244,6 @@
         </div>
       </div>
       <!-- /content -->
-      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
-        <a href="#settings" data-icon="gear" class="ui-btn-right">
-		  <span class="auto-style17">ت</span></a><a href="#settings"><span class="auto-style17">نظ&#1740;مات</span></a><span class="auto-style17">
-		  <a href="#login">حساب کاربر&#1740;</a> </span>
-      </div>
       <!-- /footer -->
     </div>
     <!-- /page -->
@@ -313,8 +311,8 @@
   <!-- Start of info page -->
   <div data-role="page" id="info" class="auto-style3">
     <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
-      <h1 class="auto-style22">
-	  <img alt="درباره سپیدپوشان" height="108" src="images/about.png" width="150"></h1>
+        <h1 class="auto-style22">
+		<img alt="درباره ما" height="92" src="images/about.png" width="120"></h1>
 		<h1 class="auto-style22">درباره</h1>
         <div class="auto-style16">
 			<a href="#home"><span class="auto-style17">خانه</span></a>
@@ -357,7 +355,9 @@
   <!-- Start of settings page -->
   <div data-role="page" id="settings" class="auto-style3">
     <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
-      <h1 class="auto-style18">تنظ&#1740;مات نرم افزار</h1>
+      <h1 class="auto-style22">
+	  <img alt="تنظیمات" height="80" src="images/setting.png" width="80"></h1>
+		<h1 class="auto-style22">تنظ&#1740;مات نرم افزار</h1>
         <div class="auto-style16">
 			<a href="#home"><span class="auto-style17">خانه</span></a>
 			<span class="auto-style17"><a href="#info">درباره</a> </span></div>
