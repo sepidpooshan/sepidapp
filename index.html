@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <title>DrupalGap</title>
+    <link rel="stylesheet" href="jquery.mobile-1.0b2.min.css" />
+    <link rel="stylesheet" href="drupalgap.css" />
+    <script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="jquery.mobile-1.0b2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" src="base.js"></script>
+    <style type="text/css">
+.auto-style1 {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: block;
+	clear: both;
+	font-size: 16px;
+	text-align: right;
+	direction: rtl;
+	font-family: Tahoma, "Courier New";
+	margin: 0;
+	padding: .4em 15px;
+}
+.auto-style2 {
+	text-align: right;
+}
+.auto-style3 {
+	text-align: right;
+	direction: rtl;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.auto-style6 {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 2px 4px 2px 4px;
+	background: none;
+	height: 17px;
+	-webkit-border-radius: 4px;
+	font-family: Tahoma, "Courier New";
+	font-size: smaller;
+}
+.auto-style14 {
+	text-align: right;
+	direction: rtl;
+}
+.auto-style15 {
+	font-family: Tahoma, "Courier New";
+}
+.auto-style16 {
+	text-align: right;
+	direction: rtl;
+	font-family: Tahoma, "Courier New";
+}
+.auto-style17 {
+	font-size: smaller;
+}
+.auto-style18 {
+	text-align: right;
+	direction: rtl;
+	font-family: Tahoma, "Courier New";
+	font-size: smaller;
+}
+.auto-style19 {
+	font-family: Tahoma, "Courier New";
+	font-size: smaller;
+}
+.auto-style20 {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: block;
+	clear: both;
+	font-size: smaller;
+	text-align: right;
+	direction: rtl;
+	font-family: Tahoma, "Courier New";
+	margin: 0;
+	padding: .4em 15px;
+}
+</style>
+  </head>
+  <body onload="onBodyLoad()">
+    
+    <div class="auto-style3">
+    
+    <!-- Start of loading page -->
+    <div data-role="page" id="loading" class="auto-style3">
+      <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+        <h1 class="auto-style18">œ— Õ«· œ—&#1740;«› </h1>
+          <div class="auto-style16">
+			  <a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			  <span class="auto-style17"><a href="#info">œ—»«—Â</a> </span>
+		  </div>
+      </div>
+      <!-- /header -->
+      <div data-role="content">
+        <div class="ui-body ui-body-c">
+          <p class="auto-style18">
+            »Â «Å·&#1740;ò&#1740;‘‰  Œ›&#1740;›«  Å“‘ò&#1740; ”Å&#1740;œÅÊ‘«‰ ŒÊ‘ ¬„œ&#1740;œ.
+          </p>
+          <p class="auto-style18">
+            œ— Õ«· œ—&#1740;«›  
+          </p>
+        </div>
+      </div>
+      <!-- /content -->
+      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
+        <a href="#settings" data-icon="gear" class="ui-btn-right">
+		  <span class="auto-style17"> </span></a><a href="#settings"><span class="auto-style17">‰Ÿ&#1740;„« </span></a><span class="auto-style17">
+		  <a href="#login">Õ”«» ò«—»—&#1740;</a> </span>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+    
+    <!-- Start of home page -->
+    <div data-role="page" id="home" class="auto-style3">
+      <div data-role="header" data-position="fixed" data-id="bhead" data-theme="e" class="auto-style2">
+        <h1 class="auto-style18">Œ«‰Â</h1>
+          <div class="auto-style16">
+			  <a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			  <span class="auto-style17"><a href="#info">œ—»«—Â</a> </span>
+		  </div>
+      </div>
+      <!-- /header -->
+      <div data-role="content" class="ui-content">
+        <div class="ui-body ui-body-c">
+          <p class="auto-style18">
+            »Â «Å·&#1740;ò&#1740;‘‰ Â„—«Â ”Å&#1740;œÅÊ‘«‰ ŒÊ‘ ¬„œ&#1740;œ. «&#1740;‰ «Å·&#1740;ò&#1740;‘‰ òÂ œ— Õ«·  Ê”⁄Â 
+			«”  œ«—«&#1740; «„ò«‰«  “&#1740;— «” :</p>
+          <ul data-role="listview" data-inset="true" data-theme="e">
+              <li class="auto-style18">
+              „‘«ÂœÂ ¬Œ—&#1740;‰ Å“‘ò«‰ «—“&#1740;«»&#1740; ‘œÂ (»—«&#1740; „—«Ã⁄«‰ »Â „ÿ» Å“‘ò«‰)</li>
+			  <li class="auto-style18">
+              „‘«ÂœÂ ¬Œ—&#1740;‰  Œ›&#1740;›«  Å“‘ò&#1740; (»—«&#1740; €&#1740;— Å“‘ò«‰)</li>
+			  <li class="auto-style18">
+              Ã” ÃÊ&#1740; Å—‘ò</li>
+			  <li class="auto-style18">
+              «—“&#1740;«»&#1740; Å“‘ò </li>
+			  <li class="auto-style18">
+              «—«∆Â  Œ›&#1740;› (»—«&#1740; Å“‘ò«‰)</li>
+              <li class="auto-style18">”«&#1740;— „Ê«—œ</li>
+          </ul>
+        </div>
+      </div>
+      <!-- /content -->
+      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style20" data-theme="e">
+          <a href="#settings"> ‰Ÿ&#1740;„« </a> <a href="#login">Õ”«» ò«—»—&#1740;</a>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+    
+    <!-- Start of How It Works page -->
+    <div data-role="page" id="howitworks" class="auto-style3">
+      <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+        <h1 class="auto-style18">—«Â‰„«&#1740; ‰—„ «›“«—</h1>
+          <div class="auto-style16">
+			  <a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			  <span class="auto-style17"><a href="#info">œ—»«—Â</a> </span>
+		  </div>
+      </div>
+      <!-- /header -->
+      <div data-role="content">
+        <div class="ui-body ui-body-c">
+          <p class="auto-style18">
+            <strong>«Å·&#1740;ò&#1740;‘‰ „Ê»«&#1740;·&#1740; ”Å&#1740;œÅÊ‘«‰ </strong>
+          </p>
+          <p class="auto-style18">
+            »Â «Å·&#1740;ò&#1740;‘‰ „Ê»«&#1740;·&#1740; ”Å&#1740;œÅÊ‘«‰ ŒÊ‘ ¬„œ&#1740;œ.</p>
+			<p class="auto-style18">
+            «“ ÿ—&#1740;ﬁ «&#1740;‰ «Å·&#1740;ò&#1740;‘‰ „&#1740;  Ê«‰&#1740;œ ¬Œ—&#1740;‰  Œ›&#1740;› Â«&#1740; «—«∆Â ‘œÂ  Ê”ÿ Å“‘ò«‰ 
+			—« „‘«ÂœÂ ò‰&#1740;œ.</p>
+        </div>
+      </div>
+      <!-- /content -->
+      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
+        <a href="#settings" data-icon="gear" class="ui-btn-right">
+		  <span class="auto-style17"> </span></a><a href="#settings"><span class="auto-style17">‰Ÿ&#1740;„« </span></a><span class="auto-style17">
+		  <a href="#login">Õ”«» ò«—»—&#1740;</a> </span>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+    
+    <!-- Start of Login page -->
+    <div data-role="page" id="login" class="auto-style3">
+      <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+        <h1 class="auto-style18">Ê—Êœ »Â Õ”«» ò«—»—&#1740;</h1>
+          <div class="auto-style16">
+			  <a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			  <span class="auto-style17"><a href="#info">œ—»«—Â</a> </span>
+		  </div>
+      </div>
+      <!-- /header -->
+      <div data-role="content" class="ui-content">
+        <div class="ui-body ui-body-c">
+          <p class="auto-style18">
+           «” ›«œÂ «“ »&#1740;‘ — »Œ‘Â«&#1740; «&#1740;‰ ‰—„ «›“«—° ‰&#1740;«“ »Â Ê—Êœ »Â Õ”«» ò«—»—&#1740; 
+		   ‰œ«—œ° «„« »—«&#1740; «” ›«œÂ «“ »—Œ&#1740; «„ò«‰«  «&#1740;‰ «Å·&#1740;ò&#1740;‰‘ »«&#1740;œ »Â Õ”«» 
+		   ò«—»—&#1740; ”Å&#1740;œÅÊ‘«‰&#1740; ŒÊœ Ê«—œ ‘Ê&#1740;œ. «ê— Õ”«» ò«—»—&#1740; ‰œ«—&#1740;œ° »« „—«Ã⁄Â »Â 
+		   ”«&#1740;  ”Å&#1740;œÅÊ‘«‰ Õ”«» ò«—»—&#1740; ŒÊœ —« «&#1740;Ã«œ ò‰&#1740;œ. „—«Õ· «&#1740;Ã«œ Õ”«» ò«—»—&#1740; 
+		   »”&#1740;«— ¬”«‰ «” .</p>
+          <p class="auto-style3">
+            <span class="auto-style19">«&#1740;„&#1740;· </span> 
+			<input id="username" type="text" class="auto-style19">
+            <span class="auto-style19">
+            </input>
+            </span>
+          </p>
+          <p class="auto-style3">
+            <span class="auto-style19">ê–—Ê«éÂ </span> 
+			<input id="password" type="password" class="auto-style19">
+            <span class="auto-style19">
+            </input>
+            </span>
+          </p>
+          <div id="logmsg">
+          </div>
+          <p class="auto-style18">
+            Ê—Êœ
+          </p>
+        </div>
+      </div>
+      <!-- /content -->
+      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
+        <a href="#settings" data-icon="gear" class="ui-btn-right">
+		  <span class="auto-style17"> </span></a><a href="#settings"><span class="auto-style17">‰Ÿ&#1740;„« </span></a><span class="auto-style17">
+		  <a href="#login">Õ”«» ò«—»—&#1740;</a> </span>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+    
+  
+    <!-- Start of articles page -->
+    <div data-role="page" id="stories" class="auto-style3">
+      <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+        <h1 class="auto-style18">¬Œ—&#1740;‰ „ÿ«·» Ê «ÿ·«⁄&#1740;Â Â«</h1>
+          <div class="auto-style16">
+			  <a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			  <span class="auto-style17"><a href="#info">œ—»«—Â</a> </span>
+		  </div>
+      </div>
+      <!-- /header -->
+      <div id = "latestlist" data-role="content">
+      </div>
+      <!-- /content -->
+      <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
+        <a href="#settings" data-icon="gear" class="ui-btn-right">
+		  <span class="auto-style17"> </span></a><a href="#settings"><span class="auto-style17">‰Ÿ&#1740;„« </span></a><span class="auto-style17">
+		  <a href="#login">Õ”«» ò«—»—&#1740;</a> </span>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+    
+    <!-- Start of add Articles page -->
+    <div data-role="page" id="addstory" class="auto-style3">
+      <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+        <h1 class="auto-style18">«—”«· Å&#1740;«„ »Â ”Å&#1740;œÅÊ‘«‰</h1>
+          <div class="auto-style16">
+			  <a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			  <span class="auto-style17"><a href="#info">œ—»«—Â</a> </span>
+		  </div>
+      </div>
+      <!-- /header -->
+      <div id = "addstorydiv" data-role="content" class="auto-style2">
+          <div class="auto-style3">
+        <div id = "stitle" class="auto-style19">
+            ⁄‰Ê«‰
+        </div>
+        <input id ="storytitle" type="text" class="auto-style6" name="storytitle" />
+        	  <span class="auto-style15">
+        <br class="auto-style17"/>
+        <textarea id="story" class="arearound" style="overflow-y:scroll;" NAME="story" COLS=45 ROWS=8 ></textarea>
+        <br class="auto-style17"/>
+        	  </span></div>
+        <div id="result">
+        </div>
+          <div class="auto-style14">
+        <br class="auto-style19" />
+          </div>
+        <div id="addcontrol" data-role="controlgroup" data-type="horizontal" data-theme="e" class="auto-style16">
+        	<span class="auto-style17">
+        </a>«—”«·</span></div>
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-id="bfoot" data-theme="e">
+      <h4 class="auto-style18">”Å&#1740;œÅÊ‘«‰</h4>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /page -->
+  
+  <!-- Start of info page -->
+  <div data-role="page" id="info" class="auto-style3">
+    <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+      <h1 class="auto-style18">œ—»«—Â</h1>
+        <div class="auto-style16">
+			<a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			<span class="auto-style17"><a href="#info">œ—»«—Â</a> </span></div>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+      <div class="ui-body ui-body-c">
+        <p class="auto-style18">
+          Â„Â „« „Êﬁ⁄ »&#1740;„«—&#1740;  ·«‘ „&#1740;ùò‰&#1740;„  « Õœ «„ò«‰ ”—«€ »Â —&#1740;‰ œò — »—&#1740;„. Ê·&#1740; 
+		  &#1740;Â Êﬁ «&#1740;&#1740; Å&#1740;‘ „&#1740;«œ ﬂÂ Â— ç&#1740; «&#1740;‰ œ— Ê «Ê‰ œ— „&#1740;ù“‰&#1740;„° ‰„&#1740;ù Ê‰&#1740;„ œò — 
+		  „‰«”» —Ê Å&#1740;œ« ò‰&#1740;„ Ê «“ —Ê&#1740; ‰«ç«—&#1740; ç‰œ »«— œò —„Ê‰ —Ê ⁄Ê÷ „&#1740;ùò‰&#1740;„  « 
+		  ‰ &#1740;ÃÂ »Â —&#1740; »ê&#1740;—&#1740;„ ... Ê »«·«Œ—Â Â„ œÊœ· Ê ‰ê—«‰ òÂ ‰ò‰Â «“ œ—„«‰° 
+		  ‰ &#1740;ÃÂ œ·ŒÊ«Â„Ê‰ —Ê ‰ê&#1740;—&#1740;„.<br>Œ·«’Â° «“ «Ê‰ Ã«&#1740;&#1740; òÂ „« Â„ „À· ‘„«° 
+		  Œ&#1740;·&#1740; Êﬁ ùÂ«° «&#1740;‰ ·ÕŸ«  Å— «“ «” —” Ê ‰ê—«‰&#1740; —Ê  Ã—»Â ò—œÂ «&#1740;„° »Â 
+		  ›ﬂ—„Ê‰ —”&#1740;œ ﬂÂ ›—«&#1740;‰œ Å&#1740;œ« ﬂ—œ‰ œﬂ —Â«&#1740; „‰«”» »—«&#1740; »&#1740;„«—&#1740;ùÂ«„Ê‰ —Ê »Â 
+		  Ã„⁄ »”Å«—&#1740;„° Ê »Â ﬁÊ· „⁄—Ê› Crowd Sourced ﬂ‰&#1740;„. &#1740;⁄‰&#1740; «&#1740;‰ﬂÂ »Â ò„ò Â„° 
+		   Ã—»&#1740;« „Ê‰ œ— „Ê—œ œò —Â« —Ê »« Â„ »Â «‘ —«ò »–«—&#1740;„ Ê «Ê‰ Â« —Ê Å” «“ 
+		  „—«Ã⁄Â° œ— «»⁄«œ „Œ ·› «—“&#1740;«»&#1740; ﬂ‰&#1740;„  « ‘‰«Œ  »Â —&#1740; —«Ã⁄ »Â œò —«&#1740; ŒÊ» 
+		  Ê „Ã—»&#1740; òÂ »⁄÷« ‰«‘‰«Œ Â „&#1740;ù„Ê‰‰œ »Â œ”  »&#1740;«—&#1740;„.<br>«“ ÿ—›&#1740;° ‘«&#1740;œ 
+		  »—«&#1740; ﬁ‘— ”Å&#1740;œÅÊ‘ ﬂ‘Ê—„Ê‰ Â„ Ã«·» »«‘Â  « » Ê‰‰ ›&#1740;œ»ò »&#1740;„«—«‰‘Ê‰ œ— 
+		  „Ê—œ ŒÊœ‘Ê‰ —Ê° Ãœ«&#1740; «“ ›÷«&#1740; „ÿ» Ê »&#1740;„«—” «‰ Ê —Ê œ— —Ê° ﬂÂ «Õ „«·« »Â 
+		  œ·&#1740;· —Êœ—Ê«&#1740;”&#1740; &#1740;« ÷—Ê—  Ê ... ç‰œ«‰ »—Ê“ ‰„&#1740; ﬂ‰Â° œ«‘ Â »«‘‰œ.<br>„« 
+		  ‘ﬂ ‰œ«—&#1740;„ ﬂÂ «—“&#1740;«»&#1740; „» ‰Ì »— ÂÊ‘ ê—ÊÂ&#1740;°  ⁄«„·&#1740; Ê „—œ„&#1740;ˆ (Collective, 
+		  Collaborative Assessment) &#1740;ﬂ œﬂ —° »Â — «“ «—“&#1740;«»&#1740;ùÂ«Ì œÊ· Ì &#1740;« 
+		  «ÿ·«⁄&#1740;ÂùÂ«&#1740; ’‰›Ì° „&#1740;ù Ê‰Â „›&#1740;œ Ê ‰ ÌÃÂù»Œ‘ »«‘Â° Â„ »—«&#1740; „—œ„ Ê Â„ 
+		  »—«&#1740; Ã«„⁄Â Å“‘ﬂ&#1740;∫ Ê «&#1740;‰Ã« Â„ Ã«&#1740;&#1740;Â »—«&#1740; «—“&#1740;«»&#1740; Ã„⁄&#1740; ”Å&#1740;œÅÊ‘«‰.<br>Å”° 
+		  «“ «&#1740;‰ »Â »⁄œ &#1740;«œ„Ê‰ »«‘Â ﬂÂ Å” «“ „—«Ã⁄Â »Â œﬂ —Â«° &#1740;ﬂ Ã«&#1740;&#1740; Â”  ﬂÂ 
+		  „&#1740;ù Ê‰&#1740;„ »Â œﬂ —&#1740; ﬂÂ „—«Ã⁄Â ﬂ—œ&#1740;„ ‰„—Â »œ&#1740;„ Ê ﬁ»· «“ «&#1740;‰ ﬂÂ Œ«ÿ—Â 
+		  „—«Ã⁄Âù„Ê‰ «“ &#1740;«œ„Ê‰ »—Â° «Ê‰ —Ê œ— «»⁄«œ „Œ ·› À»  ﬂ‰&#1740;„  « „—«Ã⁄&#1740;‰ 
+		  »⁄œ&#1740; » Ê‰‰ «” ›«œÂ ﬂ‰‰.</p>
+		  <p class="auto-style18">
+          Sepidpooshan.com Ê Bimarestanha.com »—«&#1740; Â„&#1740;‰ „‰ŸÊ— œ—”  ‘œÂ «‰œ.<br class="auto-style17"/>
+        </p>
+      </div>
+    </div>
+    <!-- /content -->
+    <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
+        <a href="#settings" data-icon="gear" class="ui-btn-right">
+		<span class="auto-style17"> </span></a><a href="#settings"><span class="auto-style17">‰Ÿ&#1740;„« </span></a><span class="auto-style17">
+		<a href="#login">Õ”«» ò«—»—&#1740;</a> </span>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /page -->
+  
+  <!-- Start of settings page -->
+  <div data-role="page" id="settings" class="auto-style3">
+    <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+      <h1 class="auto-style18"> ‰Ÿ&#1740;„«  ‰—„ «›“«—</h1>
+        <div class="auto-style16">
+			<a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			<span class="auto-style17"><a href="#info">œ—»«—Â</a> </span></div>
+    </div>
+      <div data-role="content">
+      	<div class="auto-style3">
+        <input id="baseurl" type="text" class="auto-style19">
+            <span class="auto-style15"><span class="auto-style17">
+            </input>
+          </span>
+        <br class="auto-style17"/>
+        <br class="auto-style17"/>
+          </span>
+        <input id="view" type="text" class="auto-style19">
+            <span class="auto-style15"><span class="auto-style17">
+            </input>
+          </span>
+        <br class="auto-style17"/>
+        <br class="auto-style17"/>
+          </span>
+        <input id="display" type="text" class="auto-style19">
+            <span class="auto-style15"><span class="auto-style17">
+            </input>
+          </span>
+        <br class="auto-style17"/>
+        	<span class="auto-style17">
+		    –Œ&#1740;—Â  ‰Ÿ&#1740;„« 
+		  </span></span>
+      </div>
+    </div>
+    <!-- /content -->
+
+  </div>
+  <!-- /page -->
+  
+  <!-- Start of sending page -->
+  <div data-role="page" id="sending" class="auto-style3">
+    <div data-role="header" data-id="bhead" data-theme="e" class="auto-style2">
+      <h1 class="auto-style18">Sending Story</h1>
+        <div class="auto-style16">
+			<a href="#home"><span class="auto-style17">Œ«‰Â</span></a>
+			<span class="auto-style17"><a href="#info">œ—»«—Â</a> </span></div>
+    </div>
+    <!-- /header -->
+    <div data-role="content">
+      <div class="auto-style2">
+          <div class="auto-style16">
+        <div id="sentmessage" class="auto-style17">
+            Å&#1740;€«„ ‘„« »« „Ê›ﬁ&#1740;  «—”«· ‘œ. «ê— «&#1740;‰ „ ‰  « œÊ œﬁ&#1740;ﬁÂ œ&#1740;ê— „ÕÊ ‰‘œ° 
+			« ’«· «&#1740;‰ —‰  ŒÊœ —« çò ò—œÂ Ê œÊ»«—Â ¬‰ —« «—”«· ò‰&#1740;œ.</div>
+        <br class="auto-style17"/>
+          </div>
+        <div id="storylist">
+        </div>
+      </div>
+    </div>
+    <!-- /content -->
+    <div data-role="footer" data-position="fixed" data-id="bfoot" class="auto-style1" data-theme="e">
+        <a href="#settings" data-icon="gear" class="ui-btn-right">
+		<span class="auto-style17"> </span></a><a href="#settings"><span class="auto-style17">‰Ÿ&#1740;„« </span></a><span class="auto-style17">
+		<a href="#login">Õ”«» ò«—»—&#1740;</a> </span>
+    </div>
+    <!-- /footer -->
+  </div>
+  <!-- /page -->
+    </div>
+  </body>
+</html>
