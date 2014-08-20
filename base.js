@@ -1,4 +1,4 @@
-﻿var baseurl = "";
+﻿var baseurl = "http://www.sepidpooshan.com";
 var nextpage = "#home";
 
 /* When this function is called, the phone has been initialized and is ready to roll */
@@ -67,11 +67,11 @@ function loginout() {
 function listArticles() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("retrieving data. you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point ");
+	$("#latestlist").html("در حال دریافت و آماده سازی داده ها");
 	$.post(url, {
 		username : $username,
-		view : localStorage.view,
-		display : localStorage.display
+		view : offsapp,
+		display : page
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
