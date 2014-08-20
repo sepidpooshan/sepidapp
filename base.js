@@ -1,7 +1,6 @@
 ﻿var baseurl = "http://www.sepidpooshan.com";
 var nextpage = "#home";
-var view = "offsapp";
-var display = "page";
+var username = "سپیدپوشان";
 
 /* When this function is called, the phone has been initialized and is ready to roll */
 function onDeviceReady() {
@@ -12,11 +11,10 @@ function onDeviceReady() {
 	blat = localStorage.phonegapLat;
 	blong = localStorage.phonegapLong;
 	baseurl = localStorage.baseUrl;
-//	view =  localStorage.view;
-//	display = localStorage.display;
-
-    localStorage.view = "offsapp";
-    localStorage.display = "page";
+       view =  offsapp;
+       display = page;
+    localStorage.view = offsapp;
+    localStorage.display = page;
 
 	if (baseurl) {
 		$("#baseurl").val(baseurl);
