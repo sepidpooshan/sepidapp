@@ -6,20 +6,20 @@ function onDeviceReady() {
 
 	localStorage.baseUrl = 'http://www.sepidpooshan.com';
 
-	localStorage.view1 = 'contenttable';
+	localStorage.view1 = 'contapp';
 	localStorage.display1 = 'page';
 
-	localStorage.view2 = 'searchview';
+	localStorage.view2 = 'searchapp';
 	localStorage.display2 = 'page';
 
-	localStorage.view3 = 'contenttablesignup';
+	localStorage.view3 = 'signupapp';
 	localStorage.display3 = 'page';
 
 	localStorage.view4 = 'offsapp';
 	localStorage.display4 = 'page';
 
-	localStorage.view5 = 'offsapp';
-	localStorage.display5 = 'page';
+	localStorage.view5 = '';
+	localStorage.display5 = 'contacapp';
 
 	username = localStorage.phonegapName;
 	title = localStorage.phonegapTitle;
