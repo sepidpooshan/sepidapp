@@ -5,7 +5,7 @@ var nextpage = "#home";
 function onDeviceReady() {
 
 	localStorage.baseUrl = 'http://www.sepidpooshan.com';
-	localStorage.view = 'offapps';
+	localStorage.view = 'offsapp';
 	localStorage.display = 'page';
 
 	username = localStorage.phonegapName;
