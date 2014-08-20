@@ -138,11 +138,11 @@ function loginout() {
 function listArticles1() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال پردازش و آماده سازی داده ها");
+	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
 	$.post(url, {
 		username : $username,
-		view1 : localStorage.view1,
-		display1 : localStorage.display1
+		view : localStorage.view1,
+		display : localStorage.display1
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
@@ -156,11 +156,11 @@ function listArticles1() {
 function listArticles2() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال پردازش و آماده سازی داده ها");
+	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
 	$.post(url, {
 		username : $username,
-		view2 : localStorage.view2,
-		display2 : localStorage.display2
+		view : localStorage.view2,
+		display : localStorage.display2
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
@@ -174,11 +174,11 @@ function listArticles2() {
 function listArticles3() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال پردازش و آماده سازی داده ها");
+	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
 	$.post(url, {
 		username : $username,
-		view3 : localStorage.view3,
-		display3 : localStorage.display3
+		view : localStorage.view3,
+		display : localStorage.display3
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
@@ -192,11 +192,11 @@ function listArticles3() {
 function listArticles4() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال پردازش و آماده سازی داده ها");
+	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
 	$.post(url, {
 		username : $username,
-		view4 : localStorage.view4,
-		display4 : localStorage.display4
+		view : localStorage.view4,
+		display : localStorage.display4
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
@@ -210,11 +210,11 @@ function listArticles4() {
 function listArticles5() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال پردازش و آماده سازی داده ها ");
+	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها ");
 	$.post(url, {
 		username : $username,
-		view5 : localStorage.view5,
-		display5 : localStorage.display5
+		view : localStorage.view5,
+		display : localStorage.display5
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
