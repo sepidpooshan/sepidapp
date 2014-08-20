@@ -65,13 +65,13 @@ function loginout() {
 }
 
 function listArticles() {
-	url = http://www.sepidpooshan.com/phonegap/display_view;
+	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال دریافت و آماده سازی اطلاعات");
+	$("#latestlist").html("retrieving data. you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point ");
 	$.post(url, {
 		username : $username,
-		view : offsapp,
-		display : page
+		view : localStorage.view,
+		display : localStorage.display
 	}, function(data) {
 		if (data == '') {
 			data = "you must <br/><br/>enable the view in drupal <br/><br/>set the mobile settings page (below)<br/><br/>enable the default views frontage is good starting point "
