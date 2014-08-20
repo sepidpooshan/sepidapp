@@ -1,10 +1,12 @@
-﻿var baseurl = "http://www.sepidpooshan.com";
+﻿var baseurl = "";
 var nextpage = "#home";
-var view = "offsapp";
-var display = "page";
 
 /* When this function is called, the phone has been initialized and is ready to roll */
 function onDeviceReady() {
+
+	localStorage.baseUrl = 'http://www.sepidpooshan.com';
+	localStorage.view = 'offapps';
+	localStorage.display = 'page';
 
 	username = localStorage.phonegapName;
 	title = localStorage.phonegapTitle;
@@ -14,6 +16,7 @@ function onDeviceReady() {
 	baseurl = localStorage.baseUrl;
 	view = localStorage.view;
 	display = localStorage.display;
+	
 
 	if (baseurl) {
 		$("#baseurl").val(baseurl);
@@ -50,13 +53,13 @@ function onDeviceReady() {
 
 }
 
-//function saveSettings() {
-//	baseurl = $("#baseurl").val();
-//	localStorage.baseUrl = baseurl;
-//	localStorage.view = $("#view").val();
-//	localStorage.display = $("#display").val();
-//	alert("settings saved");
-//}
+function saveSettings() {
+	baseurl = $("#baseurl").val();
+	localStorage.baseUrl = baseurl;
+	localStorage.view = $("#view").val();
+	localStorage.display = $("#display").val();
+	alert("settings saved");
+}
 
 function loginout() {
 	if (localStorage.localLogin != 3) {
