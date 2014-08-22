@@ -156,7 +156,7 @@ function listArticles1() {
 function listArticles2() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
+	$("#latestlist").html("<center>در حال دریافت، پردازش و آماده سازی داده ها</center>");
 	$.post(url, {
 		username : $username,
 		view : localStorage.view2,
@@ -174,7 +174,7 @@ function listArticles2() {
 function listArticles3() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
+	$("#latestlist").html("<center>در حال دریافت، پردازش و آماده سازی داده ها</center>");
 	$.post(url, {
 		username : $username,
 		view : localStorage.view3,
@@ -192,7 +192,7 @@ function listArticles3() {
 function listArticles4() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
+	$("#latestlist").html("<center>در حال دریافت، پردازش و آماده سازی داده ها</center>");
 	$.post(url, {
 		username : $username,
 		view : localStorage.view4,
@@ -210,7 +210,7 @@ function listArticles4() {
 function listArticles5() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها ");
+	$("#latestlist").html("<center>در حال دریافت، پردازش و آماده سازی داده ها</center> ");
 	$.post(url, {
 		username : $username,
 		view : localStorage.view5,
