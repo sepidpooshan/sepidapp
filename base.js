@@ -19,7 +19,7 @@ function onDeviceReady() {
 	localStorage.display4 = 'page';
 
 	localStorage.view5 = '';
-	localStorage.display5 = 'contacapp';
+	localStorage.display5 = 'contactapp';
 
 	username = localStorage.phonegapName;
 	title = localStorage.phonegapTitle;
@@ -138,7 +138,7 @@ function loginout() {
 function listArticles1() {
 	url = baseurl + '/phonegap/display_view';
 	$username = '';
-	$("#latestlist").html("در حال دریافت، پردازش و آماده سازی داده ها");
+	$("#latestlist").html("<center>در حال دریافت، پردازش و آماده سازی داده ها</center>");
 	$.post(url, {
 		username : $username,
 		view : localStorage.view1,
