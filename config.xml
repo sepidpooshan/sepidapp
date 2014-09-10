@@ -4,7 +4,21 @@
         id          = "com.sepidpooshan.sepidapp"
         versionCode = "2" 
         version     = "2.0.0" >
+		
+	<name>سپیدپوشان</name>
+
+    <description>
+        اینجا مردم نبض دکترها را میگیرند: جستجو، ارزیابی، تخفیف
+    </description>
+
+    <author href="http://sepidpooshan.com" email="info@sepidpooshan.com">
+        Sepidpooshan.com
+    </author>
+
+	
     <preference name="permissions"                value="none"/>
+	<preference name="phonegap-version"           value="2.9.0" />         
+	
     <access origin="http://sepidpooshan.com"/>
 
 </widget>
